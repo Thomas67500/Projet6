@@ -1,0 +1,87 @@
+*, ::before ::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+
+
+}
+
+
+.container{
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+
+.carousel{
+margin: auto;
+overflow: hidden;
+max-width: 900px;
+position: relative;
+
+}
+
+.carousel-item{
+
+    display: inline-block;
+    width: 100%;
+}
+
+.carousel-inner{
+
+    white-space: nowrap;
+    transition: ease 1s;
+}
+
+
+.carousel-control{
+
+ background-color: rgba(0,0,0,0.5);
+ border: none;
+ display: inline-block;
+ position: absolute;
+ width: 70px;
+ color: #f3f3f3;
+ cursor: pointer;
+
+
+ &.left {
+ left: 19em;
+ }
+
+ &.right{
+    right: 28em;
+ }
+}
+
+
+.carousel-indicators {
+
+position: absolute;
+transform: translateX(-50%);
+left: 47%;
+bottom: 1.5em;
+top: 46em;
+z-index: 2;
+height: 0;
+
+&-item{
+
+    width: 15px;
+    height: 15px;
+    border: none;
+    background: #f3f3f3;
+    opacity: 0.5;
+    margin: 0.2em;
+    border-radius: 50%;
+    cursor: pointer;
+
+&.active{
+
+    opacity: 1;
+}
+}
+
+}

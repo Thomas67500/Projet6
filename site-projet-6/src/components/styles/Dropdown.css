@@ -1,8 +1,9 @@
 .DropDown_Boite {
   display: flex;
+  justify-content: center;
+  flex-direction: column;
   position: relative;
   width: 63.9375rem;
-  height: 30em;
   align-items: flex-start;
   gap: 0.625rem;
   border-radius: 0.625rem 0.625rem 0.3125rem 0.3125rem;
@@ -14,33 +15,33 @@
   width: 63.9375rem;
   padding: 0.625rem 0.9375rem;
   align-items: center;
-  position: absolute;
   border-radius: 0.3125rem;
   background: var(--red, #FF6060);
   cursor: pointer;
 }
-.DropDown_Boite__Barre__Fleche {
-  transform: rotate(0deg);
-}
-.DropDown_Boite__Barre__Fleche__Animated {
-  transform: rotate(180deg);
-}
-.DropDown_Boite__Barre__Fleche__Toggle {
+.DropDown_Boite__Barre__Texte {
   position: relative;
   background-color: grey;
   bottom: -3.2em;
   height: 0px;
   font-size: 18px;
   opacity: 0;
-  transition: opacity 0.3s ease-in-out, height 0.3s 0.3s ease-in-out;
+  transition: ease-in-out, height 0.3s 0.3s ease-in-out;
   color: #333;
   border-bottom-left-radius: 3px;
   border-bottom-right-radius: 3px;
 }
-.DropDown_Boite__Barre__Fleche__Toggle__Animated {
-  opacity: 1;
-  transition: height 0.3s ease-in-out, opacity 0.3s 0.3s ease-in-out;
+.DropDown_Boite__Barre__Texte__Toggle {
+  color: var(--red, #FF6060);
+  background-color: #F6F6F6;
 }
-.DropDown_Boite__Barre__Fleche__Toggle__Animated__Animated p {
-  color: red;
+
+.DropDown_Boite__Barre__Fleche {
+  cursor: pointer;
+  transform: rotate(0deg);
+}
+.DropDown_Boite__Barre__Fleche__Animated {
+  transform: rotate(180deg);
+  transition: 0.6s;
+  cursor: pointer;
 }/*# sourceMappingURL=Dropdown.css.map */

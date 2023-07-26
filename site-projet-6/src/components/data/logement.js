@@ -7,32 +7,10 @@ export function JsonDataDisplay(){
       (
 		[infoListe.id,infoListe.cover,infoListe.title]
 	  ))
-
-	 
-	/*const DisplayDataDetails=JsonData.map(infoDetails) => {
-    
-		return(
-		  [infoDetails.description,infoDetails.host,infoDetails.ratings,infoDetails.location,infoDetails.equipments,infoDetails.tags]
-		);
-  
-  
-	  }  
-	  const DisplayDataImage=JsonData.map(infoImage) => {
-    
-		return(
-		  [infoImage.pictures]
-		);
-  
-  
-	  } ; */
 	} 
 		
 		
-	export function DisplayDataDetails(){
-		return JsonData.map(infoDetails => (
-			[infoDetails.description,infoDetails.host,infoDetails.ratings,infoDetails.location,infoDetails.equipments,infoDetails.tags]
-		  ));
-	}	
+	
 		
 		
 		
