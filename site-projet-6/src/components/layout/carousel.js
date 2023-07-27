@@ -3,6 +3,7 @@ import {CarouselDataDisplay} from '../data/DataCarousel'
 import CarouselItem from '../carousel-item';
 import CarouselControls from '../Carousel-control';
 import CarouselIndicators from '../Carousel-indicator';
+import listes from '../data/logements.json'
 import '../styles/carousel.css'
 
 export const Carousel = ()=> {
@@ -55,3 +56,4 @@ return (
 
 
 
+export default Carousel;
