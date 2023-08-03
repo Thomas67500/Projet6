@@ -1,0 +1,64 @@
+@charset "UTF-8";
+.standard-box {
+  display: inline-flex;
+  flex-direction: column;
+  gap: 1.875rem;
+  margin: 2em;
+}
+
+.dropdown_bloc {
+  background-color: #FF6060;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 0.3125rem;
+}
+
+.dropdown {
+  background-color: #FF6060;
+}
+
+.fiabilite > img,
+.description > img,
+.equipements > img,
+.respect > img,
+.service > img,
+.sécurité > img {
+  transform: rotate(180deg);
+  transition: 0.6s;
+}
+
+.fiabilite + div,
+.description + .box,
+.equipements + .box,
+.respect + div,
+.service + div,
+.sécurité + div {
+  visibility: visible;
+  height: 6em;
+  color: red;
+  background-color: #f6f6f6;
+  display: flex;
+  align-items: center;
+}
+
+.fiabilite_animated > img,
+.description_animated > img,
+.equipements_animated > img,
+.respect_animated > img,
+.service_animated > img,
+.sécurité_animated > img {
+  transform: rotate(0deg);
+  transition: 0.6s;
+}
+
+.fiabilite_animated + div,
+.description_animated + .box,
+.equipements_animated + .box,
+.respect_animated + div,
+.service_animated + div,
+.sécurité_animated + div {
+  visibility: hidden;
+  height: 0;
+}/*# sourceMappingURL=Dropdown.css.map */

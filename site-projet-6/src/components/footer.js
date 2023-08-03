@@ -1,5 +1,5 @@
 import React from "react"
-import '../index.css'
+import '../components/Sass/layout/footer.css'
 import logoFooter from '../components/img/LOGO-FOOTER.png'
 
 export const Footer=() =>{
