@@ -42,6 +42,9 @@
 
 .bloc-logement-dropdown {
   display: flex;
+  width: 100%;
+  justify-content: space-around;
+  margin-top: 2em;
 }
 
 .equipments__list {
@@ -51,4 +54,8 @@
   display: flex;
   flex-direction: column;
   list-style-type: none;
+}
+
+.standard-box__logement {
+  width: 40%;
 }/*# sourceMappingURL=Fiche_Logement.css.map */

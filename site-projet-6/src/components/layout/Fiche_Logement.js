@@ -69,11 +69,11 @@ const Fiche_Logement = () => {
                 </div> 
                 </div> 
                  <div className="bloc-logement-dropdown">
-                <div className = "standard-box" >
+                <div className = "standard-box__logement" >
                 <DropDown title = 'description' />
                 <p className = 'box' > { liste.description } </p> 
                 </div > 
-                <div className = "standard-box" >
+                <div className = "standard-box__logement" >
                 <DropDown title = 'equipements' />
                 <ul className = 'equipments__list box'> 
                 {liste.equipments.map((equipment: string, index) => {
