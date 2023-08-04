@@ -63,12 +63,12 @@ const Fiche_Logement = () => {
                 </div> 
                 
                 <div className = "host" >
-                <span > { liste.host.name } </span> 
-                <img src = { liste.host.picture } alt = { liste.host.name }/> 
+                <span className="nom-hote" > { liste.host.name } </span> 
+                <img className="image-hote" src = { liste.host.picture } alt = { liste.host.name }/> 
                 </div > 
                 </div> 
                 </div> 
-                <div className = "dropdown_bloc" >
+                 <div className="bloc-logement-dropdown">
                 <div className = "standard-box" >
                 <DropDown title = 'description' />
                 <p className = 'box' > { liste.description } </p> 
@@ -83,7 +83,7 @@ const Fiche_Logement = () => {
                     })
                 } 
                 </ul> 
-                </div> 
+                </div>
                 </div>
                 <Footer /> 
                 </>
