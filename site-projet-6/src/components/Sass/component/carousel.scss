@@ -12,6 +12,8 @@
 display: flex;
 align-items: center;
 justify-content: center;
+width: 77rem;
+
 }
 
 
@@ -19,6 +21,8 @@ justify-content: center;
 margin: auto;
 overflow: hidden;
 max-width: 900px;
+height: 25rem;
+width: 77rem;
 position: relative;
 
 }
@@ -27,6 +31,12 @@ position: relative;
 
     display: inline-block;
     width: 100%;
+}
+
+.carousel-item img{
+    width: 100%;
+    height: 25rem;
+    object-fit: cover;
 }
 
 .carousel-inner{
@@ -45,14 +55,18 @@ position: relative;
  width: 70px;
  color: #f3f3f3;
  cursor: pointer;
+ background: none;
+ z-index: 1;
 
 
  &.left {
- left: 19em;
+    top: 11em;
+ left: 1em;
  }
 
  &.right{
-    right: 28em;
+    top: 11em;
+    right: 1em;
  }
 }
 
@@ -61,11 +75,11 @@ position: relative;
 
 position: absolute;
 transform: translateX(-50%);
-left: 47%;
+left: 29em;
 bottom: 1.5em;
-top: 46em;
+top: 23em;
 z-index: 2;
-height: 0;
+
 
 &-item{
 

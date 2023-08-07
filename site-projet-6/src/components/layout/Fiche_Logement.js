@@ -4,8 +4,8 @@ import { Carousel } from "../carousel"
 import listes from "../data/logements.json"
 import { useParams } from "react-router-dom"
 import {DropDown} from '../DropDown'
-import fullStar from '../img/fullstar.png'
-import emptyStar from '../img/emptystar.png'
+import fullStar from '../img/fullstar.svg'
+import emptyStar from '../img/emptystar.svg'
 import '../Sass/layout/Fiche_Logement.css'
 
 
@@ -26,9 +26,7 @@ const Fiche_Logement = () => {
                     /*<Slider images={product.pictures} />*/
                     <>
                     <Header />
-                    <div>
-                    <Carousel />
-                    </div> 
+                    <Carousel images = {liste.pictures} /> 
                     <div className = "productPage__pres" >
                     <div className = "productPage__title" >
                     <h1> { liste.title } </h1> 

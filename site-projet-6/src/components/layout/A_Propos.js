@@ -9,7 +9,7 @@ import DataAccordeon from "../data/Data-A-Propos"
 export const A_Propos = () => {
     return (
      <>
-        <Header />
+        <Header   />
         <Banner_Propos />
        
        

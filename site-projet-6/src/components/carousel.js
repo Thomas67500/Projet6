@@ -1,14 +1,13 @@
-import { useState,useEffect } from 'react';
-import {CarouselDataDisplay} from '../components/data/DataCarousel'
+import { useState } from 'react';
 import CarouselItem from '../components/carousel-item';
 import CarouselControls from '../components/Carousel-control';
 import CarouselIndicators from '../components/Carousel-indicator';
-import listes from '../components/data/logements.json'
 import '../components/Sass/component/carousel.css'
 
-export const Carousel = ()=> {
+export const Carousel = ({images})=> {
 
     const [currentSlide,setCurrentSlide] = useState(0)
+    const slides = images
 
 
     const prev = () => {
@@ -23,22 +22,16 @@ export const Carousel = ()=> {
     }
 
 
-const slides = [
- "https://picsum.photos/id/5/800/400",
- 'https://picsum.photos/id/4/800/400',
- 'https://picsum.photos/id/15/800/400',
- "https://picsum.photos/id/17/800/400", 
 
-
-
-]
 
 return (
 <div className='container'>
 
  <div className='carousel'>
-
+ <CarouselControls prev={prev} next={next} />
+ <CarouselIndicators slides={slides} currentIndex={currentSlide} />
    <div className='carousel-inner' style={{transform:`translateX(${-currentSlide * 100}%)`}}>
+   
 
     {slides.map((slide,index) =>(
       <CarouselItem slide={slide} key={index} />
@@ -47,8 +40,8 @@ return (
     ))}
     </div> 
  </div>
- <CarouselIndicators slides={slides} currentIndex={currentSlide} />
- <CarouselControls prev={prev} next={next} />
+ 
+ 
 </div>
 
 );
