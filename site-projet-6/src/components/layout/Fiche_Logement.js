@@ -45,7 +45,7 @@ const Fiche_Logement = () => {
                 </div>  
                 </div> 
                 <div className = 'productPage__rating' >
-                <div> {[...Array(parseInt(liste.rating))].map((data, index) => {
+                <div className="rating-star"> {[...Array(parseInt(liste.rating))].map((data, index) => {
                         return ( 
                             <img key = { index } src = { fullStar } alt = ''className = 'star' />
                         )
@@ -68,12 +68,12 @@ const Fiche_Logement = () => {
                 </div> 
                  <div className="bloc-logement-dropdown">
                 <div className = "standard-box__logement" >
-                <DropDown title = 'description' />
+                <DropDown title = 'Description' />
                 <p className = 'box' > { liste.description } </p> 
                 </div > 
                 <div className = "standard-box__logement" >
-                <DropDown title = 'equipements' />
-                <ul className = 'equipments__list box'> 
+                <DropDown title = 'Equipements' />
+                <ul className = 'Equipments__list box'> 
                 {liste.equipments.map((equipment: string, index) => {
                         return ( 
                             <li key = { index } > { equipment } </li>

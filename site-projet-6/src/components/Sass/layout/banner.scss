@@ -30,9 +30,10 @@
     position:absolute;
     top: 3em;
     left: 9em;
-    
 
-
+&-mobile{
+  display: none;
+}
 
 }
 }
@@ -42,13 +43,34 @@
 
       .Banniere {
 
-        width: 24rem;
+        width: 17rem;
+        height: 9rem;
+
+      &__IMG{
+       height: 9rem;
+
+      }
+      &__Texte{
+        display: flex;
+        position: absolute;
+        font-size: 1.5rem;
+        left: 1em;
+        display: none;
+
+      &-mobile{
+       display: block;
+       left: 1.5em;
+       top: 4em;
+       display: flex;
+       position: absolute;
+       font-size: 1.5rem;
+       color: white;
+
+
+      }}
+
+      
       }
 
-    .Banniere__Texte{
-
-        font-size: 2.5rem;
-        left: 1.5em;
-      }
 
 }

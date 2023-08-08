@@ -26,13 +26,32 @@
   top: 3em;
   left: 9em;
 }
+.Banniere__Texte-mobile {
+  display: none;
+}
 
 @media all and (min-width: 1px) and (max-width: 425px) {
   .Banniere {
-    width: 24rem;
+    width: 17rem;
+    height: 9rem;
+  }
+  .Banniere__IMG {
+    height: 9rem;
   }
   .Banniere__Texte {
-    font-size: 2.5rem;
+    display: flex;
+    position: absolute;
+    font-size: 1.5rem;
+    left: 1em;
+    display: none;
+  }
+  .Banniere__Texte-mobile {
+    display: block;
     left: 1.5em;
+    top: 4em;
+    display: flex;
+    position: absolute;
+    font-size: 1.5rem;
+    color: white;
   }
 }/*# sourceMappingURL=banner.css.map */

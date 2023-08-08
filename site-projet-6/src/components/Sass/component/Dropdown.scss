@@ -28,23 +28,23 @@ margin: 2em;
     background-color: #FF6060;
   }
   
-  .fiabilite>img,
-  .description>img,
-  .equipements>img,
-  .respect>img,
-  .service>img,
-  .sécurité>img {
+  .Fiabilité>img,
+  .Description>img,
+  .Equipements>img,
+  .Respect>img,
+  .Service>img,
+  .Sécurité>img {
     
     transform: rotate(180deg);
     transition: 0.6s;
   }
   
-  .fiabilite+div,
-  .description+.box,
-  .equipements+.box,
-  .respect+div,
-  .service+div,
-  .sécurité+div {
+  .Fiabilité+div,
+  .Description+.box,
+  .Equipements+.box,
+  .Respect+div,
+  .Service+div,
+  .Sécurité+div {
     visibility: visible;
     height: 6em;
     color: red;
@@ -53,26 +53,35 @@ margin: 2em;
     align-items: center;
   }
   
-  .fiabilite_animated>img,
-  .description_animated>img,
-  .equipements_animated>img,
-  .respect_animated>img,
-  .service_animated>img,
-  .sécurité_animated>img {
+  .Fiabilité_animated>img,
+  .Description_animated>img,
+  .Equipements_animated>img,
+  .Respect_animated>img,
+  .Service_animated>img,
+  .Sécurité_animated>img {
     transform: rotate(0deg);
     transition: 0.6s;
   }
   
-  .fiabilite_animated+div,
-  .description_animated+.box,
-  .equipements_animated+.box,
-  .respect_animated+div,
-  .service_animated+div,
-  .sécurité_animated+div {
+  .Fiabilité_animated+div,
+  .Description_animated+.box,
+  .Equipements_animated+.box,
+  .Respect_animated+div,
+  .Service_animated+div,
+  .Sécurité_animated+div {
     visibility: hidden;
     height: 0;
   }
                 
-            
+  @media all and (min-width: 1px) and (max-width:425px) {
+
+   .dropdown_bloc img {
+    width: 2em;
+   }
+
+
+
+
+  }
 
 

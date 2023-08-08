@@ -32,6 +32,7 @@ margin: 0.2em;
 .host {
     display: flex;
     align-items: center;
+    justify-content: space-evenly;
 }
 
 .nom-hote {
@@ -65,3 +66,49 @@ list-style-type: none;
     width: 40%;
     
 }
+
+
+@media all and (min-width: 1px) and (max-width: 425px) {
+
+    .productPage__pres{
+        flex-direction: column;
+    }
+    
+    .productPage__rating{
+    
+        flex-direction: row;
+        justify-content: space-between;
+        margin-left: 1em;
+        margin-right: 1em;
+        margin-top: 2em;
+    }
+
+.rating-star{
+
+    display: flex;
+}
+
+.star {
+
+    width: 1.5em;
+}
+
+.nom-hote{
+    width: 3em;
+    margin-right: 1em;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.bloc-logement-dropdown{
+    flex-direction: column;
+}
+
+.standard-box__logement{
+    width: 100%;
+}
+
+}
+
+
+

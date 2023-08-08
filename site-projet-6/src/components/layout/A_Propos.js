@@ -14,21 +14,21 @@ export const A_Propos = () => {
        
        
         <div className = "standard-box" >
-        <DropDown title = "fiabilite" />
+        <DropDown title = "Fiabilité" />
         <div className = "box" >
         Les annonces postées sur Kasa garantissent une fiabilité totale.Les photos sont conformes aux logements,
         et toutes les informations sont régulièrement vérifiées par nos équipes. 
         </div> 
-        <DropDown title = "respect" />
+        <DropDown title = "Respect" />
         <div className = "box">
         La bienveillance fait partie des valeurs fondatrices de Kasa.Tout comportement discriminatoire ou de perturbation du voisinage entraînera une exclusion de notre plateforme. 
         </div>
-        <DropDown title = "service" />
+        <DropDown title = "Service" />
         <div className = "box" >
         La bienveillance fait partie des valeurs fondatrices de Kasa. Tout comportement discriminatoire ou de
         perturbation du voisinage entraînera une exclusion de notre plateforme.
         </div>
-        <DropDown title = "sécurité" />
+        <DropDown title = "Sécurité" />
         <div className = "box" >
         La sécurité est la priorité de Kasa. Aussi bien pour nos hôtes que pour les voyageurs, chaque logementcorrespond aux critères de sécurité établis par nos services. En laissant une note aussi bien à l'hôte qu'au
         locataire, cela permet à nos équipes de vérifier que les standards sont bien respectés. Nous organisons

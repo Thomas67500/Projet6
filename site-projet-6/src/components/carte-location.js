@@ -14,7 +14,7 @@ return(
      
      <img  className='carte__img'src={JsonDataDisplay.cover}  />
        <div className='carte__titre'>
-       {JsonDataDisplay.title}
+       {JsonDataDisplay.title} 
        </div>
        
       </article>

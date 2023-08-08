@@ -77,4 +77,21 @@
 }
 .carousel-indicators-item.active {
   opacity: 1;
+}
+
+@media all and (min-width: 1px) and (max-width: 425px) {
+  .container {
+    width: 100%;
+    margin: 1em;
+  }
+  .carousel-control button {
+    top: 14em;
+  }
+  .carousel-control img {
+    width: 1.5rem;
+    height: 2rem;
+  }
+  .carousel-indicators {
+    left: 13em;
+  }
 }/*# sourceMappingURL=carousel.css.map */
