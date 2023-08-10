@@ -8,7 +8,7 @@
 }
 
 
-.container{
+.container-carousel{
 display: flex;
 align-items: center;
 justify-content: center;
@@ -20,9 +20,9 @@ width: 77rem;
 .carousel{
 margin: auto;
 overflow: hidden;
-max-width: 900px;
 height: 25rem;
 width: 77rem;
+border-radius: 1.5625rem;
 position: relative;
 
 }
@@ -101,7 +101,7 @@ z-index: 2;
 }
 @media all and (min-width: 1px) and (max-width: 425px) {
 
-.container{
+.container-carousel{
 
     width: 100%;
     margin: 1em;

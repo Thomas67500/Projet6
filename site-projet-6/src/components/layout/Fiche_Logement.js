@@ -13,7 +13,7 @@ import '../Sass/layout/Fiche_Logement.css'
 
 const Fiche_Logement = () => {
 
-    //const id = window.location.href.split('Fiche_logement/')[1];
+    
 
     const { id } = useParams();
    
@@ -23,9 +23,10 @@ const Fiche_Logement = () => {
 
 
             return (
-                    /*<Slider images={product.pictures} />*/
+                    
                     <>
                     <Header />
+                    <main className="bloc-produit">
                     <Carousel images = {liste.pictures} /> 
                     <div className = "productPage__pres" >
                     <div className = "productPage__title" >
@@ -83,6 +84,7 @@ const Fiche_Logement = () => {
                 </ul> 
                 </div>
                 </div>
+                </main>
                 <Footer /> 
                 </>
 

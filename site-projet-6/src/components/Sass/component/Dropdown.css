@@ -1,4 +1,11 @@
 @charset "UTF-8";
+.Conteneur {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+}
+
 .standard-box {
   display: inline-flex;
   flex-direction: column;
@@ -6,13 +13,23 @@
   margin: 2em;
 }
 
+.info-carte {
+  box-sizing: content-box;
+  max-width: 1023px;
+  min-width: 300px;
+  width: 100%;
+}
+
 .dropdown_bloc {
+  width: 100%;
+  max-width: 1023px;
   background-color: #FF6060;
   color: white;
   display: flex;
   justify-content: space-between;
   align-items: center;
   border-radius: 0.3125rem;
+  padding: 15px 20px;
 }
 
 .dropdown {
@@ -36,11 +53,13 @@
 .Service + div,
 .Sécurité + div {
   visibility: visible;
-  height: 6em;
+  height: 301px;
+  max-height: 201px;
   color: red;
   background-color: #f6f6f6;
-  display: flex;
+  padding: 25px 20px;
   align-items: center;
+  transition: 0.25s ease-out, padding 0.2s ease-out;
 }
 
 .Fiabilité_animated > img,
@@ -61,6 +80,7 @@
 .Sécurité_animated + div {
   visibility: hidden;
   height: 0;
+  transition: 0.25s ease-out, padding 0.2s ease-out;
 }
 
 @media all and (min-width: 1px) and (max-width: 425px) {

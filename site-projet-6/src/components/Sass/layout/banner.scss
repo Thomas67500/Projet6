@@ -1,9 +1,12 @@
 .Banniere{
     width: 100%;
+    max-width: 1240px;
+    min-width: 240px;
     height: 13.9375rem;
     flex-shrink: 0;
     border-radius: 1.5625rem;
     margin: 1.5em;
+    position: relative;
     
     background: #000;
 &__IMG{
@@ -28,8 +31,13 @@
     font-weight: 500;
     line-height: 142.6%;
     position:absolute;
-    top: 3em;
-    left: 9em;
+    width: 100%;
+   top: 0;
+   bottom: 0;
+   display: flex;
+   justify-content:center ;
+   align-items: center;
+   
 
 &-mobile{
   display: none;

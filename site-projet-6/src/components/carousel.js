@@ -25,7 +25,7 @@ export const Carousel = ({images})=> {
 
 
 return (
-<div className='container'>
+<div className='container-carousel'>
 
  <div className='carousel'>
  <CarouselControls prev={prev} next={next} />

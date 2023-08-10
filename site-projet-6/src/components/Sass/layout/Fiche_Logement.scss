@@ -1,16 +1,37 @@
+.bloc-produit{
+    width: 100%;
+    max-width: 1240px;
+    min-width: 250px;
+    margin: 20px auto;
+}
+
+
 .productPage__pres{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    margin-top:25px;
 }
 
 .productPage__title{
     color: #FF6060
 }
 
-.productPage__title p{
-    font-weight:500;
+.productPage__title h1{
+    font-size: 36px;
+    font-weight: 500;
 }
 
+.productPage__title p{
+    font-weight:500;
+    font-size: 18px;
+}
+
+.blocTag{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 20px;
+}
 
 .tagBox{
 background-color: #FF6060;
@@ -18,6 +39,12 @@ color: white;
 border-radius: 0.625rem;
 padding: 0.2em;
 margin: 0.2em;
+font-size: 14px;
+font-weight: 500;
+text-align: center;
+padding-top: 4px;
+width: 120px;
+height: 25px;
 
 
 }
@@ -26,19 +53,20 @@ margin: 0.2em;
 .productPage__rating{
     display: flex;
     flex-direction: column-reverse;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 
 .host {
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 
 .nom-hote {
 
     color: #FF6060;
     width: 3em;
+    font-weight: 500;
 }
 
 .image-hote {
@@ -46,16 +74,19 @@ margin: 0.2em;
     border-radius: 50%;
 }
 
+.star{
+    width: 30px;
+}
+
 .bloc-logement-dropdown {
     display: flex;
     width: 100%;
-    justify-content: space-around;
+    justify-content: space-between;
     margin-top: 2em;
 }
 
 .equipments__list {
 visibility: visible;
-
 color: red;
 background-color: #f6f6f6;
 display: flex;
@@ -63,7 +94,7 @@ flex-direction: column;
 list-style-type: none;
 }
 .standard-box__logement{
-    width: 40%;
+    width: 582px;
     
 }
 
