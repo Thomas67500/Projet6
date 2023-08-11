@@ -1,13 +1,12 @@
-import '../components/Sass/component/Dropdown.css'
-import Fleche_DropDown from '../components/img/Fleche_DropDown.png'
-import { useEffect, useState } from 'react'
-import { render } from 'react-dom'
-import { useParams } from "react-router-dom"
-import DataAccordeon from './data/Data-A-Propos'
+import '../styles/styles.css'
+import Fleche_DropDown from '../img/Fleche_DropDown.png'
+import { useState } from 'react'
 
 
 
 
+ //fonction qui va afficher le nom des dropdown et verifier si la barre est cliquée pour declencher l'animation
+ 
 export const DropDown = ({ title }: { title: string }) => {
 
   const [selected, setSelected] = useState(true)

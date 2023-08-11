@@ -66,7 +66,7 @@ margin: 2em;
   .Sécurité+div {
     visibility: visible;
    height: 301px;
-   max-height: 201px;
+   max-height: 290px;
     color: red;
     background-color: #f6f6f6;
     padding: 25px 20px;
@@ -94,8 +94,22 @@ margin: 2em;
     height: 0;
     transition:0.25s ease-out, padding 0.2s ease-out;
   }
-                
-  @media all and (min-width: 1px) and (max-width:425px) {
+     
+  @media (max-width:768px) {
+
+
+
+  
+  }
+
+
+  @media  (max-width:425px) {
+
+
+   .standard-box{
+     margin: inherit;
+     margin-bottom: 2em;
+   }
 
    .dropdown_bloc img {
     width: 2em;

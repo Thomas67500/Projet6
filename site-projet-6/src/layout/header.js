@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom"
-import logo from '../components/img/LOGO.png'
-import '../components/Sass/layout/header.css'
+import logo from '../img/LOGO.png'
+import '../styles/styles.css'
 
 
 

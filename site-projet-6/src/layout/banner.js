@@ -1,5 +1,5 @@
-import '../components/Sass/layout/banner.css'
-import BannerIMG from'../components/img/IMG.png'
+import '../styles/styles.css'
+import BannerIMG from'../img/IMG.png'
 
 
 
@@ -10,11 +10,6 @@ return (
 <h2 className='Banniere__Texte'> 
 Chez vous,partout et ailleurs
 </h2>
-<h2 className='Banniere__Texte-mobile'>Chez vous,<br />
-partout et ailleurs
-</h2>
-
-
 
 
 </div>

@@ -1,12 +1,12 @@
-import '../components/Sass/component/box-location.css'
+import '../styles/styles.css'
 import { Carte__location } from '../components/carte-location'
-import JsonData from "../components/data/logements.json"
+import JsonData from "../data/logements.json"
 
 
 
 export const BoxLocation=() => {
 return(
-<div className='box-location'>
+<main className='box-location'>
 {JsonData.map((infos)=>{
             return (
           <Carte__location {...infos} key={infos.id} />   
@@ -16,7 +16,7 @@ return(
 
       
 
-</div>
+</main>
 
 
 

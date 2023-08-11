@@ -1,5 +1,5 @@
-import '../components/Sass/layout/banner_A_Propos.css'
-import Propos_IMG from '../components/img/Propos_IMG.png'
+import '../styles/styles.css'
+import Propos_IMG from '../img/Propos_IMG.png'
 
 
 

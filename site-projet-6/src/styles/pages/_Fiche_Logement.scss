@@ -99,7 +99,9 @@ list-style-type: none;
 }
 
 
-@media all and (min-width: 1px) and (max-width: 425px) {
+
+
+@media (max-width: 425px) {
 
     .productPage__pres{
         flex-direction: column;
@@ -133,6 +135,8 @@ list-style-type: none;
 
 .bloc-logement-dropdown{
     flex-direction: column;
+    gap: 46px;
+    margin-bottom: 10em;
 }
 
 .standard-box__logement{

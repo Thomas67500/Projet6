@@ -37,45 +37,52 @@
    display: flex;
    justify-content:center ;
    align-items: center;
-   
-
-&-mobile{
-  display: none;
-}
-
 }
 }
 
-@media all and (min-width: 1px) and (max-width:425px) {
+
+@media (max-width:768px) {
+
+.Banniere{
+  width: 96%;
+  height: 11rem;
+
+  &__IMG{
+    height: 11rem;
+  }
+
+
+
+}
+
+  
+}
+
+
+
+@media (max-width:425px) {
 
 
       .Banniere {
 
-        width: 17rem;
-        height: 9rem;
+        width: 90%;
+        height: 7rem;
 
       &__IMG{
-       height: 9rem;
+       height: 7rem;
 
       }
       &__Texte{
         display: flex;
+        justify-content: flex-start;
+        width: 60%;
         position: absolute;
         font-size: 1.5rem;
-        left: 1em;
-        display: none;
+        left: 0;
+        margin-left: 0.5em;
+       
 
-      &-mobile{
-       display: block;
-       left: 1.5em;
-       top: 4em;
-       display: flex;
-       position: absolute;
-       font-size: 1.5rem;
-       color: white;
-
-
-      }}
+      }
 
       
       }

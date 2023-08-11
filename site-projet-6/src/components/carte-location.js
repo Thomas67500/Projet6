@@ -1,6 +1,4 @@
-import '../components/Sass/component/carte.css'
-import {JsonDataDisplay} from '../components/data/logement'
-import JsonData from "../components/data/logements.json"
+import '../styles/styles.css'
 import { Link } from 'react-router-dom'
 
 

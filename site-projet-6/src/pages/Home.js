@@ -1,7 +1,7 @@
-import {Header} from '../header'
-import {Banner} from '../banner'
-import {BoxLocation} from '../box-location'
-import { Footer } from '../footer'
+import {Header} from '../layout/header'
+import {Banner} from '../layout/banner'
+import {BoxLocation} from '../components/box-location'
+import { Footer } from '../layout/footer'
 
 
 export const Home = () => {

@@ -13,10 +13,24 @@
 
 }
 
-@media all and (min-width: 1px) and (max-width:425px) {
+@media (max-width:768px) {
+
+    .box-location{
+        background: none;
+    }
+
+    
+
+  
+}
+
+
+@media (max-width:425px) {
 
 .box-location{
     width: 89%;
+    background: none;
+    margin: 1em;
 }
 
 

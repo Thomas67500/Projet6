@@ -1,14 +1,13 @@
 import { Routes, Route } from "react-router-dom";
-import { BrowserRouter } from "react-router-dom";
-import {Home} from '../layout/Home'
-import { A_Propos } from "../layout/A_Propos";
-import  Fiche_Logement  from "../layout/Fiche_Logement";
-import { Erreur } from "../layout/Erreur";
+import {Home} from '../pages/Home'
+import { A_Propos } from "../pages/A_Propos";
+import  Fiche_Logement  from "../pages/Fiche_Logement";
+import { Erreur } from "../pages/Erreur";
 
 function App() {
   return (
     
-    
+    //route pour l'affichage des pages
     <Routes>
      <Route path='/'element={<Home />} /> 
      <Route path='/A_propos' element={<A_Propos />}/> 

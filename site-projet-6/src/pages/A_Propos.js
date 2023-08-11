@@ -1,7 +1,7 @@
-import { Header } from "../header"
-import {Banner_Propos} from "../Banner_A_Propos"
-import {DropDown} from '../DropDown'
-import { Footer } from "../footer"
+import { Header } from "../layout/header"
+import {Banner_Propos} from "../layout/Banner_A_Propos"
+import {DropDown} from '../components/DropDown'
+import { Footer } from "../layout/footer"
 
 
 
@@ -10,7 +10,7 @@ export const A_Propos = () => {
     return (
      <>
         <Header   />
-        <div className="Conteneur">
+        <main className="Conteneur">
         <Banner_Propos />
        
        
@@ -55,7 +55,7 @@ export const A_Propos = () => {
         </div>
 
         </div>
-        </div>
+        </main>
         <Footer />  
         </>
         

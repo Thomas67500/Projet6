@@ -75,7 +75,7 @@ position: relative;
 
 position: absolute;
 transform: translateX(-50%);
-left: 29em;
+left: 38em;
 bottom: 1.5em;
 top: 23em;
 z-index: 2;
@@ -99,12 +99,31 @@ z-index: 2;
 }
 
 }
-@media all and (min-width: 1px) and (max-width: 425px) {
+
+@media (max-width:768px) {
+
+.container-carousel{
+    width: 100%;
+}
+
+.carousel-indicators {
+    left: 24em;
+}
+  
+.bloc-logement-dropdown {
+
+    gap: 60px;
+}
+
+}
+
+
+
+@media (max-width: 425px) {
 
 .container-carousel{
 
     width: 100%;
-    margin: 1em;
 }
 
 

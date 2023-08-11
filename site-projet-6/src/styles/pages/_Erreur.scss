@@ -20,7 +20,7 @@
     font-style: normal;
     font-weight: 700;
     line-height: 142.6%;
-    
+    }
     
     &__texte{
       display: flex;
@@ -33,7 +33,7 @@
     font-weight: 500;
     line-height: 142.6%;
     
-    
+    }
    
     
     &__lien {
@@ -52,5 +52,28 @@
     
     }
 }
+
+
+@media (max-width:768px) {
+
+
+
+  
 }
+
+@media (max-width: 425px) {
+.bloc-erreur{
+
+ &__chiffre{
+  flex-direction: initial;
+  font-size: 200px;
+ } 
+&__texte{
+  font-size: 20px;
+}
+
+}
+
+
+
 }

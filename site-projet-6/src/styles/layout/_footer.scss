@@ -39,11 +39,25 @@ line-height: 142.6%;
 
 }
 
-@media all and (min-width: 1px) and (max-width:425px) {
+
+@media (max-width:768px) {
 
   .Footer{
 
-    width: 111%;
+    margin-top: inherit;
+    padding: inherit;
+  }
+
+
+
+}
+
+
+@media (max-width:425px) {
+
+  .Footer{
+
+    width: 100%;
     gap: inherit;
     padding: inherit;
   }

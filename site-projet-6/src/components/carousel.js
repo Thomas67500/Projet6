@@ -2,7 +2,10 @@ import { useState } from 'react';
 import CarouselItem from '../components/carousel-item';
 import CarouselControls from '../components/Carousel-control';
 import CarouselIndicators from '../components/Carousel-indicator';
-import '../components/Sass/component/carousel.css'
+import '../styles/styles.css'
+
+
+// const qui permettent l'affichage des images et de la bonne navigation entre elles
 
 export const Carousel = ({images})=> {
 

@@ -1,12 +1,12 @@
-import { Header } from "../header"
-import { Footer } from "../footer"
-import { Carousel } from "../carousel"
+import { Header } from "../layout/header"
+import { Footer } from "../layout/footer"
+import { Carousel } from "../components/carousel"
 import listes from "../data/logements.json"
 import { useParams } from "react-router-dom"
-import {DropDown} from '../DropDown'
+import {DropDown} from '../components/DropDown'
 import fullStar from '../img/fullstar.svg'
 import emptyStar from '../img/emptystar.svg'
-import '../Sass/layout/Fiche_Logement.css'
+import '../styles/styles.css'
 
 
 
