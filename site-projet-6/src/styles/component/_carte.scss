@@ -19,6 +19,7 @@ margin: 1em;
     height:100%;
     border-radius: 0.625rem;
     flex-shrink: 0;
+    object-fit: cover;
 }
 &__titre{
     position: relative;

@@ -603,6 +603,8 @@
   height: 100%;
   border-radius: 0.625rem;
   flex-shrink: 0;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 .carte__titre {
   position: relative;

@@ -27,7 +27,7 @@ const Fiche_Logement = () => {
                     <>
                     <Header />
                     <main className="bloc-produit">
-                    <Carousel images = {liste.pictures} /> 
+                    <Carousel images = {liste.pictures}  /> 
                     <div className = "productPage__pres" >
                     <div className = "productPage__title" >
                     <h1> { liste.title } </h1> 

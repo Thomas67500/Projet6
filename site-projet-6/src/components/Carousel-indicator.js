@@ -5,11 +5,11 @@ const CarouselIndicators = ({slides,currentIndex}) => {
 
 return (
 
- <div className="carousel-indicators">
+ <div className="carousel-indicators" >
 
-  {slides.map(( _,index) => (
+  {slides.map(( _,index)  =>  ( 
 
-<button className={`carousel-indicators-item${currentIndex=== index ? ' active ':''}`}></button>
+<button key={`carousel-indicators-item-${index}`} className={`carousel-indicators-item${currentIndex=== index ? ' active ':''}`}></button>
 
   ))}
 
