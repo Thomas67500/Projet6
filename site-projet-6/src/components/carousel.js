@@ -30,24 +30,28 @@ export const Carousel = ({images})=> {
 return (
 <div className='container-carousel'>
 
+
  <div className='carousel'>
  <CarouselControls prev={prev} next={next} />
- <CarouselIndicators slides={slides} currentIndex={currentSlide} />
-   <div className='carousel-inner' style={{transform:`translateX(${-currentSlide * 100}%)`}}>
-   
-
+  <CarouselIndicators slides={slides} currentIndex={currentSlide} />
+  
+   <div className='carousel-inner' style={{transform:`translateX(${-currentSlide * 100}%)`}}>;
+    
     {slides.map((slide,index) =>(
       <CarouselItem slide={slide} key={index} />
 
-
+      
     ))}
     </div> 
+    
  </div>
  
  
 </div>
 
 );
+
+
 };
 
 

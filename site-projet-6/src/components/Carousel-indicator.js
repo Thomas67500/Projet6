@@ -1,22 +1,21 @@
-const CarouselIndicators = ({slides,currentIndex}) => {
+
+const CarouselIndicators = ({ slides, currentIndex }) => {
 
 
   //fonction l'indicateur du slider
+  let nb = slides.length;
 
-return (
+  return (
 
- <div className="carousel-indicators" >
+      <div className = "carousel-indicators" >
+           <button key = "carousel-indicators-item" className = "carousel-indicators-item" >
 
-  {slides.map(( _,index)  =>  ( 
+               { currentIndex + 1 } / { nb }
 
-<button key={`carousel-indicators-item-${index}`} className={`carousel-indicators-item${currentIndex=== index ? ' active ':''}`}></button>
+           </button >
+      </div>
 
-  ))}
-
-
- </div>
-
-);
+  );
 };
 
 

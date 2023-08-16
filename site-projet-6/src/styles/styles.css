@@ -440,11 +440,20 @@
   opacity: 1;
 }
 
+.carousel-indicator-number {
+  position: absolute;
+  z-index: 1;
+  color: white;
+  display: flex;
+  left: 38em;
+  bottom: 1.5em;
+}
+
 @media (max-width: 768px) {
   .container-carousel {
     width: 100%;
   }
-  .carousel-indicators {
+  .carousel-indicator-number {
     left: 24em;
   }
   .bloc-logement-dropdown {
@@ -462,7 +471,7 @@
     width: 1.5rem;
     height: 2rem;
   }
-  .carousel-indicators {
+  .carousel-indicator-number {
     left: 13em;
   }
 }

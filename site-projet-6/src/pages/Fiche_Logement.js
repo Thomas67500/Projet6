@@ -16,10 +16,14 @@ const Fiche_Logement = () => {
     
 
     const { id } = useParams();
+
+   
    
     for (let i = 0; i < listes.length; i++) {
         if (listes[i].id === id) {
             let liste = listes[i]
+           
+           
 
 
             return (
@@ -90,8 +94,14 @@ const Fiche_Logement = () => {
 
         )
     }
+    
+
+    
+
+     
 }
 }
+
 
 
 

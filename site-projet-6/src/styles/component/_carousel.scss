@@ -8,6 +8,9 @@
 }
 
 
+
+
+
 .container-carousel{
 display: flex;
 align-items: center;
@@ -98,7 +101,21 @@ z-index: 2;
 }
 }
 
+
+
 }
+
+.carousel-indicator-number  {
+
+    position: absolute;
+    z-index: 1;
+    color: white;
+    display: flex;
+    left: 38em;
+    bottom: 1.5em;
+
+}
+
 
 @media (max-width:768px) {
 
@@ -106,7 +123,7 @@ z-index: 2;
     width: 100%;
 }
 
-.carousel-indicators {
+.carousel-indicator-number {
     left: 24em;
 }
   
@@ -137,7 +154,7 @@ height: 2rem;
 
 }
 
-.carousel-indicators{
+.carousel-indicator-number{
 
     left: 13em;
 }
