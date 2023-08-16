@@ -459,7 +459,7 @@
   .container-carousel {
     width: 100%;
   }
-  .carousel-indicator-number {
+  .carousel-indicators {
     left: 24em;
   }
   .bloc-logement-dropdown {
@@ -481,7 +481,7 @@
     width: 1.5rem;
     height: 2rem;
   }
-  .carousel-indicator-number {
+  .carousel-indicators {
     left: 13em;
   }
   .image-seul {
