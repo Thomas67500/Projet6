@@ -8,11 +8,11 @@ const CarouselIndicators = ({ slides, currentIndex }) => {
   return (
 
       <div className = "carousel-indicators" >
-           <button key = "carousel-indicators-item" className = "carousel-indicators-item" >
+           <p key = "carousel-indicators-item" className = "carousel-indicators-item" >
 
                { currentIndex + 1 } / { nb }
 
-           </button >
+           </p >
       </div>
 
   );

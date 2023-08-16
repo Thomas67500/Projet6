@@ -86,11 +86,8 @@ z-index: 2;
 
 &-item{
 
-    width: 15px;
-    height: 15px;
     border: none;
-    background: #f3f3f3;
-    opacity: 0.5;
+    color: white;
     margin: 0.2em;
     border-radius: 50%;
     cursor: pointer;
@@ -117,6 +114,18 @@ z-index: 2;
 }
 
 
+.image-seul {
+
+    margin: auto;
+    overflow: hidden;
+    height: 25rem;
+    width: 77rem;
+    border-radius: 1.5625rem;
+    position: relative;
+  
+}
+
+
 @media (max-width:768px) {
 
 .container-carousel{
@@ -132,6 +141,11 @@ z-index: 2;
     gap: 60px;
 }
 
+}
+
+.image-seul {
+
+    width: 100%;
 }
 
 
@@ -159,7 +173,9 @@ height: 2rem;
     left: 13em;
 }
 
-
+.image-seul {
+    width: 100%;
+}
 
 
 

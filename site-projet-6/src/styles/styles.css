@@ -427,11 +427,8 @@
   z-index: 2;
 }
 .carousel-indicators-item {
-  width: 15px;
-  height: 15px;
   border: none;
-  background: #f3f3f3;
-  opacity: 0.5;
+  color: white;
   margin: 0.2em;
   border-radius: 50%;
   cursor: pointer;
@@ -449,6 +446,15 @@
   bottom: 1.5em;
 }
 
+.image-seul {
+  margin: auto;
+  overflow: hidden;
+  height: 25rem;
+  width: 77rem;
+  border-radius: 1.5625rem;
+  position: relative;
+}
+
 @media (max-width: 768px) {
   .container-carousel {
     width: 100%;
@@ -460,6 +466,10 @@
     gap: 60px;
   }
 }
+.image-seul {
+  width: 100%;
+}
+
 @media (max-width: 425px) {
   .container-carousel {
     width: 100%;
@@ -473,6 +483,9 @@
   }
   .carousel-indicator-number {
     left: 13em;
+  }
+  .image-seul {
+    width: 100%;
   }
 }
 .box-location {
