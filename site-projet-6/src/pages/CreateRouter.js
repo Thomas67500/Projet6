@@ -1,7 +1,7 @@
 import { createBrowserRouter, Navigate } from 'react-router-dom';
 import {Home} from '../pages/Home'
 import { A_Propos } from "../pages/A_Propos";
-import  Fiche_Logement  from "../pages/Fiche_Logement";
+import  FicheLogement  from "../pages/Fiche_Logement";
 import { Erreur } from "../pages/Erreur";
 
 
@@ -15,7 +15,7 @@ export const Router = createBrowserRouter([
     },
     {
       path: '/Fiche_Logement/:id',
-      element: <Fiche_Logement />,
+      element: <FicheLogement />,
       errorElement: <Erreur />
     },
     {

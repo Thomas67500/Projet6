@@ -3,7 +3,7 @@ import { Footer } from "./footer";
 import { Header } from "./header";
 
 
-const layout =({children}: PropsWithChildren) => {
+const Layout =({children}: PropsWithChildren) => {
     return (
 
         <div className = "layout">
@@ -13,4 +13,4 @@ const layout =({children}: PropsWithChildren) => {
     )
 }
 
-export default layout
+export default Layout
